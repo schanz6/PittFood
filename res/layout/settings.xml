@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Categories"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <CheckBox
+        android:id="@+id/Cfast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fast Food" />
+
+    <CheckBox
+        android:id="@+id/Cethnic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ethnic" />
+
+    <CheckBox
+        android:id="@+id/Csit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sit Down" />
+
+    <CheckBox
+        android:id="@+id/C10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Under 10" />
+
+    <CheckBox
+        android:id="@+id/C20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Under 20" />
+
+    <CheckBox
+        android:id="@+id/Call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All" />
+
+    <CheckBox
+        android:id="@+id/Con"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On Campus" />
+
+    <TextView
+        android:id="@+id/Rran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Random"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/randome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/tru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="True" />
+
+        <RadioButton
+            android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Repeats " />
+
+        <RadioButton
+            android:id="@+id/off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Off" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+    </LinearLayout>
+</ScrollView>
